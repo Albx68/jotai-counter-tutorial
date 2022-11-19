@@ -33,7 +33,6 @@
     transform: translateY(0px)  scale(1);
   }
 }
-
 .count{
 font-size: 10rem;
 color: rgb(0, 0, 28);
@@ -56,4 +55,8 @@ border-radius: 10px;
 font-size: 2rem;
 color: white;
 cursor: pointer;
+transition: 250ms ease;
+}
+.btns>button:active{
+  transform: scale(0.8);
 }
